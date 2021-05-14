@@ -19,6 +19,13 @@ A service - `thinkfan` - is required to run to make the changes. Install it from
 ## Set up service
 Recently (in 21.04), thinkfan switched to using a `.yaml` file to setup the service that is hard to configure as there's no examples online. A temporary solution is to continue using the old `.conf` file for the time being. A vanilla example of the old .conf file can be found here: https://github.com/vmatare/thinkfan/blob/0.9/examples/thinkfan.conf.simple.
 
+### Add .conf file
+
+```
+sudo rm /etc/thinkpad.yaml
+sudo mv ~/Downloads/thinkfan.conf.simple /etc/thinkfan.conf
+```
+
 ### Add temp sensors
 Add temp sensors to the conf file with this one-liner:
 ```
