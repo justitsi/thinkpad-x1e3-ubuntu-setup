@@ -4,7 +4,7 @@ This is a guide on how to setup your ubuntu install on the thinkpad x1e3. I'm ma
 
 ## Thinkfan. 
 
-Thinkfan lets you control the fans on your thinkpad, which I hihgly recomend you set up - the laptop will try to reach 30 degrees C before switching off the fans, which is unrealistic outside the polar circles. Go to the `setupThinkFan.md` file for more info.
+Thinkfan lets you control the fans on your thinkpad, which I highly recomend you set up - the laptop will try to reach 30 degrees C before switching off the fans, which is unrealistic outside the polar circles. Go to the `setupThinkFan.md` file for more info.
 
 ## Tips
 
