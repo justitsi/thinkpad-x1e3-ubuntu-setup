@@ -12,13 +12,12 @@ echo "options thinkpad_acpi fan_control=1 experimental=1" | sudo tee /etc/modpro
 sudo modprobe -rv thinkpad_acpi
 sudo modprobe -v thinkpad_acpi
 ```
-Should be noted that these cause intermident falures in other modules, haven't investigated yet - adds some time to ?login? out of all things
 
 # Deamon
 A service - `thinkfan` - is required to run to make the changes. Install it from the repos.
 
 ## Set up service
-Recently (in 21.04), thinkfan switched to using a `.yaml` file to setup the service that is hard to configure as there's no examples online. A temporary solution is to continue using the old `.conf` file for the time being. 
+Recently (in 21.04), thinkfan switched to using a `.yaml` file to setup the service that is hard to configure as there's no examples online. A temporary solution is to continue using the old `.conf` file for the time being. A vanilla example of the old .conf file can be found here: https://github.com/vmatare/thinkfan/blob/0.9/examples/thinkfan.conf.simple.
 
 ### Add temp sensors
 Add temp sensors to the conf file with this one-liner:
